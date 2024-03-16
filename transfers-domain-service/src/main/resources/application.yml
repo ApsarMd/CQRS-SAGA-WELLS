@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5434/transactions_db
+    username: postgres
+    password: Afsar007!
+  jpa:
+    hibernate:
+      ddl-auto: update
+    
+  
+      
+server:
+  port: 8082
+ 
+axon:
+  axonserver:
+    token: 123abc
+    eventhandling:
+      processors:
+        account-group:
+          mode: subscribing
+    
+  
+       
+     
+        
+         
+  
+     
+      
+      
+            
+        
